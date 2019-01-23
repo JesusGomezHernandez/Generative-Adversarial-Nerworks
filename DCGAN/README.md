@@ -10,5 +10,13 @@ better but far from real images. Even so, comparing the first and last epoch, di
 If you want to train in a GPU I recommend you to do it with this [code](https://pytorch.org/tutorials/_downloads/dc0e6f475c6735eb8d233374f8f462eb/dcgan_faces_tutorial.py)
 from [Pytorch tutorials](https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html)
 
+**Result from CIFAR-10 - 25 epochs**
+
 ![fake_sample_24](./CIFAR_10/fake_samples_epoch_024.png)
+
+
+**Result from Dogs and cats - 200 epochs**
+
+
+![fake_sample_200](./Dogs_cats/GAN_e192_b128.png)
  

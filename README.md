@@ -1,1 +1,1 @@
-# Generative-Adversarial-Nerworks
+# Generative Adversarial Nerworks / GANs

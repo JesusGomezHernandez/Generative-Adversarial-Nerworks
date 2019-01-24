@@ -28,7 +28,7 @@ imageSize = 64 # Tamaño de las imágenes generadas 64x64
 transform = transforms.Compose([transforms.Scale(imageSize), transforms.ToTensor(), transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5)),]) # We create a list of transformations (scaling, tensor conversion, normalization) to apply to the input images.
 
 # Loading the dataset
-dataset = dset.ImageFolder(root = './data', transform = transform) # Descargamos el set de entrenamiento en la caperta ./data y aplicamos la transformación anterior a cada imagen.
+dataset = dset.CIFAR10(root = './data', download = True, transform = transform) # Descargamos el set de entrenamiento en la caperta ./data y aplicamos la transformación anterior a cada imagen.
 dataloader = torch.utils.data.DataLoader(dataset, batch_size = batchSize, shuffle = True, num_workers = 2) # Usamos dataLoader para generar los batches de imágener de set de etrenamiento.
 
 # Definimos la función weights_init que toma como argumento la red neueroanl m, y define  sus pesos iniciales.

@@ -23,7 +23,7 @@ del [tutorial de Pytorch](https://pytorch.org/tutorials/beginner/dcgan_faces_tut
 ![fake_sample_24](./CIFAR_10/fake_samples_epoch_024.png)
 
 
-**Result from Dogs and cats - 192 epochs, batch 128 **
+**Result from Dogs and cats - 192 epochs, batch 128**
 
 
 ![fake_sample_200](./Dogs_cats/GAN_e192_b128.png)
